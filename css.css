@@ -72,7 +72,7 @@
 	padding-right: 14px;
   text-decoration: none;
 	 font-family: "Gotham", Helvetica Neue, Helvetica, Arial, "sans-serif";
-  font-size: 22px;
+  font-size: 18px;
 }
 
 .topnav a:hover {
@@ -128,7 +128,7 @@
 				display: block;
 				padding-left: 10px;
 				float: left;
-				font-size: 12px;
+				font-size: 10px;
 			}
 			
 			#socials{
