@@ -67,11 +67,11 @@
 .topnav a {
   color: #fbf6a7;
   text-align: center;
-  padding: 14px 10px;
-	padding-right: 14px;
+  padding: 14px 4px;
+	padding-right: 10px;
   text-decoration: none;
 	 font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .topnav a:hover {
