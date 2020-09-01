@@ -88,7 +88,6 @@
 				padding-top: 10px;
 				margin-top: 10px;
 				text-align: center;
-				width: auto;
 			}
 
 			#brand {
@@ -107,17 +106,14 @@
 			
 			#feature1{
 				float: left;
-				width: 33.33%;
 			}
 			
 			#feature2{
 				float: left;
-				width: 33.33%;
 			}
 			
 			#feature3{
 				float: left;
-				width: 33.33%;
 			}
 			
 			#footer{
