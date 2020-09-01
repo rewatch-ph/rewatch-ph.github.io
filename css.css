@@ -5,7 +5,7 @@
   width: 100%;
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 600px) {
   /* For tablets: */
   .col-s-1 {width: 8.33%;}
   .col-s-2 {width: 16.66%;}
@@ -20,7 +20,7 @@
   .col-s-11 {width: 91.66%;}
   .col-s-12 {width: 100%;}	
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 992px) {
   /* For desktop: */
   .col-1 {width: 8.33%;}
   .col-2 {width: 16.66%;}
@@ -69,8 +69,8 @@
 	float: left;
   color: #fbf6a7;
   text-align: center;
-  padding: 14px 20px;
-	padding-right: 10px;
+  padding: 14px 14px;
+	padding-right: 14px;
   text-decoration: none;
 	 font-family: "Gotham", Helvetica Neue, Helvetica, Arial, "sans-serif";
   font-size: 22px;
