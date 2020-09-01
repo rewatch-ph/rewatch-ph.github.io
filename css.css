@@ -58,6 +58,7 @@
 			}
 
 .topnav {
+	overflow: hidden;
 	padding-top: 20px;
 	width: auto;
 	float: right;
@@ -65,13 +66,14 @@
 }
 
 .topnav a {
+	float: left;
   color: #fbf6a7;
   text-align: center;
-  padding: 14px 4px;
+  padding: 14px 20px;
 	padding-right: 10px;
   text-decoration: none;
-	 font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-  font-size: 21px;
+	 font-family: "Gotham", Helvetica Neue, Helvetica, Arial, "sans-serif";
+  font-size: 22px;
 }
 
 .topnav a:hover {
