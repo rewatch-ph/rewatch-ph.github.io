@@ -1,192 +1,38 @@
 <html>
 	<head>
-		<style>
-			#logo{
-				margin-top: 20px;
-				margin-left: 40px;
-				float: left;
-			}
-
-			body{
-			}
-
-			a:link {
-				color: fbf6a7;
-				text-decoration: none;
-			}
-
-			a:visited {
-				color: fbf6a7;
-			}
-
-			a:hover {
-				color: a4813b;
-			}
-
-			a:active {
-				color: a4813b;
-			} 
-
-			.container {
-				margin: auto;
-				background-color: #000000;
-			}
-			
-			body{
-				background-color: #000000;
-				color: aliceblue;
-				font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-			}
-
-			.header{
-				width: auto;
-				height: 160px;
-				margin-top: -10px;
-				background-color: #000000;
-			}
-			.nav{
-				padding-top: 90px;
-				padding-right: 30px;
-				margin-bottom: 0;
-				padding-left: 0;
-				list-style: none;
-				float: right !important;
-			}
-			.navbar-menu {
-				padding-bottom: 20px;
-				margin: auto 20px;
-				margin-left: 40px;
-				overflow: hidden;
-				position: relative;
-				z-index: 5;
-				float: left;
-				font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-				font-size: 24px;
-				
-			}
-			
-			#newest{
-				width: auto;
-				text-align: center;
-			}
-			
-			#brands {
-			  margin:0 auto;
-			}
-
-			#brands img {
-			  position:absolute;
-			  left:0;
-			  -webkit-transition: opacity s ease-in-out;
-			  -moz-transition: opacity .5s ease-in-out;
-			  -o-transition: opacity .5s ease-in-out;
-			  transition: opacity .5s ease-in-out;
-			}
-
-			#brands img.top:hover {
-			  opacity:0;
-			}
-
-			#feature{
-				width: auto;
-			}
-			
-			#feature1{
-				width: 33.33%;
-				float: left;
-			}
-			
-			#feature2{
-				width: 33.33%;
-				float: left;
-			}
-			
-			#feature3{
-				width: 33.33%;
-				float: left;
-			}
-			
-			#footer{
-				margin-top: -40px;
-				background-color: #FFFFFF;
-				color: #a4813b;
-				font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-				height: 70px;
-				padding-left: 10px;
-				padding-right: 10px;
-			}
-			
-			#reserve{
-				padding-top: 10px;
-				float: left;
-			}
-			
-			#socials{
-				padding-top: 10px;
-				float: right;
-			}
-		</style>
-    <script type="text/javascript">
-function MM_swapImgRestore() { //v3.0
-  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
-}
-function MM_preloadImages() { //v3.0
-  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
-    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
-    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
-}
-
-function MM_findObj(n, d) { //v4.01
-  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
-    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
-  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
-  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
-  if(!x && d.getElementById) x=d.getElementById(n); return x;
-}
-
-function MM_swapImage() { //v3.0
-  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
-   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
-}
-    </script>
+		<link href="css.css" rel="stylesheet" type="text/css">
 	</head>
-	<body onLoad="MM_preloadImages('images/brands/brand_harry_winstonB.jpg','images/brands/brand_rolexB.jpg')">
+<body>
 	<div class="container">
-			<a id="logo" href="index.html">
+		<div class="col-4 col-s-12">
+			<a class="logo" href="index.html">
 				<img src="images/ReWatch2020 no bg.png" width="102px" height="110px" alt="">
 			</a>
-			<div class="header">
-				<ul class="nav">
-					<li class="navbar-menu">
-						<a href="whats_new.html">what's new?</a>
-					</li>
-					<li class="navbar-menu">
-						<a href="brands.html">brands</a>
-					</li>
-					<li class="navbar-menu">
-						<a href="sold.html">sold</a>
-					</li>
-					<li class="navbar-menu">
-						<a href="wishlist.html">wishlist</a>
-					</li>
-					<li class="navbar-menu">
-						<a href="contact.html">contact</a>
-					</li>
-				</ul>
-			</div>
-				<div class="brands">
-				<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('rolex','','images/brands/brand_rolexB.jpg',1)">
-				<img src="images/brands/brand_rolexA.jpg" alt="" width="100%" id="rolex">
-				</a>
-
-					<div class="brands">
-				<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('harry_winston','','images/brands/brand_harry_winstonB.jpg',1)">
-				<img src="images/brands/brand_harry_winstonA.jpg" alt="" width="100%" id="harry_winston">
+		</div>
+		<div class="topnav col-8 col-s-12">
+			<a href="whats_new.html">what's new?</a>
+			<a class=active href="brands.html">brands</a>
+			<a href="sold.html">sold</a>
+			<a href="wishlist.html">wishlist</a>
+			<a href="contact.html">contact</a>
+		</div>
+	</div>
+		
+		<div id="brand">
+			 <div class="brands" style="padding-top: 10px;">
+					<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('rolex','','images/brands/brand_rolexB.jpg',1)">
+					<img src="images/brands/brand_rolexA.jpg" alt="" width="100%" id="rolex">
 				</a>
 			</div>
+			<div class="brand">
+					<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('harry_winston','','images/brands/brand_harry_winstonB.jpg',1)">
+					<img src="images/brands/brand_harry_winstonA.jpg" alt="" width="100%" id="harry_winston">
+				</a>
+			</div>
+		</div>
 		<div id="footer">
-		  <div id="reserve">
-			  <p>
+			<div id="reserve">
+				<p>
 					2020 ALL RIGHTS RESERVED. DTI REGISTERED.
 				</p>	
 			</div>
