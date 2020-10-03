@@ -270,8 +270,8 @@ nav ul li a:active {
 }
 
 .img{
-	webkit-transition: opacity 1s ease-in-out;
-	transition: opacity 1s ease-in-out;
+	webkit-transition: opacity 3s ease-in-out;
+	transition: opacity 3s ease-in-out;
 	opacity: .8;
 }
 
