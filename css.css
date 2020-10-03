@@ -122,6 +122,10 @@
 	#reserve{
 		font-size: 10px;
 	}
+	
+	.slides2{
+		display: none;
+	}
 }
 
 
@@ -180,6 +184,10 @@
 	
 	#reserve{
 		font-size: 15px;
+	}
+	
+	.slides2{
+		display: block;
 	}
 }
 
