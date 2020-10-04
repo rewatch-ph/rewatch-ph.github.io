@@ -63,6 +63,15 @@
 		font-size: 10px;
 	}
 	
+		#description{
+		margin-top: 20px;
+		padding: 10px 20px;
+		display: block;
+		color:#EAC57C;
+		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		line-height: 1.5;
+		font-size: 10px;
+	}
 }
 
 
@@ -126,6 +135,16 @@
 	.slides2{
 		display: none;
 	}
+	
+		#description{
+		margin-top: 20px;
+		padding: 10px 20px;
+		display: block;
+		color:#EAC57C;
+		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		line-height: 1.5;
+		font-size: 12px;
+	}
 }
 
 
@@ -188,6 +207,16 @@
 	
 	.slides2{
 		display: block;
+	}
+	
+	#description{
+		margin-top: 20px;
+		padding: 10px 20px;
+		display: block;
+		color:#EAC57C;
+		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		line-height: 1.5;
+		font-size: 14px;
 	}
 }
 
@@ -256,10 +285,10 @@ nav ul li a:active {
 }
 
 #footer{
-	z-index: 2;
+	float: left;
 	margin-top: -5px;
 	width: 100%;
-	display: inline-block;
+	display: block;
 	background-color: #FFFFFF;
 	color: #a4813b;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
@@ -292,6 +321,7 @@ nav ul li a:active {
 .container{
 	display: block;
 	width: 100%;
+	float: left;
 }
 
 .sidebrand{
@@ -301,6 +331,7 @@ nav ul li a:active {
 	z-index: 0;
 	float: left;
 	background-color: #222222;
+	padding-bottom: 100px;
 }
 
 .sidebrand ul li {
@@ -326,4 +357,8 @@ nav ul li a:active {
 	margin-bottom: -6px;
 	margin-right: -4px;
 	display: inline-block;
+}
+
+th, td {
+  text-align: left;
 }
