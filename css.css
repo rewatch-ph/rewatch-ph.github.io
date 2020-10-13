@@ -44,17 +44,6 @@
 		font-size: 14px;
 	}
 	
-	.button {
-		color: #fbf6a7;
-		text-align: right;
-		padding: 10px 3px;
-		padding-right: 7px;
-		margin-left: 65px;
-		text-decoration: none;
-		font-family: "Gotham", Helvetica Neue, Helvetica, Arial, "sans-serif";
-		font-size: 14px;
-	}	
-	
 	.sidebrand a {
 	width: 100%;
 	display: inline-block;
@@ -119,17 +108,6 @@
 		text-align: center;
 		padding: 10px 3px;
 		padding-right: 7px;
-		text-decoration: none;
-		font-family: "Gotham", Helvetica Neue, Helvetica, Arial, "sans-serif";
-		font-size: 16px;
-	}
-	
-	.button {
-		color: #fbf6a7;
-		text-align: center;
-		padding: 10px 3px;
-		padding-right: 7px;
-		margin-left: 20px;
 		text-decoration: none;
 		font-family: "Gotham", Helvetica Neue, Helvetica, Arial, "sans-serif";
 		font-size: 16px;
@@ -203,17 +181,6 @@
 		text-align: center;
 		padding: 14px 14px;
 		padding-right: 14px;
-		text-decoration: none;
-		font-family: "Gotham", Helvetica Neue, Helvetica, Arial, "sans-serif";
-		font-size: 18px;
-	}
-	
-	.button {
-		color: #fbf6a7;
-		text-align: center;
-		padding: 14px 14px;
-		padding-right: 14px;
-		margin-left: 20px;
 		text-decoration: none;
 		font-family: "Gotham", Helvetica Neue, Helvetica, Arial, "sans-serif";
 		font-size: 18px;
@@ -293,10 +260,6 @@ nav ul li a:active {
 .newest {
 	margin-top: -5px;
 	text-align: center;
-}
-
-.button:hover {
-	color: #a4813b;
 }
 
 #brands {
